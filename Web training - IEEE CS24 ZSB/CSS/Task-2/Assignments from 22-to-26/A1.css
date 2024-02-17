@@ -1,0 +1,12 @@
+div {
+  color: black;
+  border: solid orangered 4px;
+  padding: 15px;
+}
+
+p{
+    background-color: #eee;
+    text-align: center;
+    padding: inherit;
+    border: inherit;
+}

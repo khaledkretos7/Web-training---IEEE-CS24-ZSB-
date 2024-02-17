@@ -1,0 +1,6 @@
+div {
+  color: black;
+  font-size: bold;
+  text-shadow: 1px 1px 1px orange, 2px 2px 0px blueviolet, 3px 3px 0px green,
+    4px 4px 0px red;
+}
