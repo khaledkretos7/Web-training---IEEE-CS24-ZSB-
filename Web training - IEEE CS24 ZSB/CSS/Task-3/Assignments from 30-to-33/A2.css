@@ -1,0 +1,45 @@
+div {
+  background-color: #eee;
+  border-top: red solid 3px;
+  border-bottom: red solid 3px;
+  border-right: blue solid 3px;
+  border-left: blue solid 3px;
+  padding: 20px;
+  text-align: center;
+  margin: 10px auto;
+  position: relative;
+}
+
+span {
+    background-color: blueviolet;
+    text-align: center;
+    padding: 10px;
+    /* border-right: orangered solid 3px; */
+}
+
+.top-left{
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    border-right: orangered solid 3px;
+}
+.bottom-left{
+    position: absolute;
+    bottom: -15px;
+    left: -15px;
+    border-right: orangered solid 3px;
+}
+
+.top-right{
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    border-left: orangered solid 3px;
+}
+
+.bottom-right{
+    position: absolute;
+    bottom: -15px;
+    right: -15px;
+    border-left: orangered solid 3px;
+}

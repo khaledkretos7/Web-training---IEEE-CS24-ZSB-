@@ -1,0 +1,18 @@
+.parent {
+  list-style-type: none;
+}
+.parent li {
+  background-color: #eee;
+  padding: 5px;
+  margin: 10px;
+}
+.li-inside li {
+  background-color: white;
+}
+.li-inside.ol {
+    list-style-type: armenian;
+}
+
+.li-inside.ul{
+    list-style-position: inside;
+}

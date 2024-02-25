@@ -1,0 +1,22 @@
+
+table {
+    background-color: #eee;
+    text-align: center;
+    width: 700px;
+    margin: 10px auto;
+    border: 2px solid white;
+}
+
+thead th{
+    background-color: rgb(68, 66, 66);
+    color: white;    
+    padding: 10px;
+}
+
+form input{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 3px;
+    text-align: center;
+}

@@ -1,0 +1,209 @@
+* {
+  box-sizing: border-box;
+  font-family: Roboto;
+  margin: 0;
+}
+.container {
+  padding-top: 100px;
+  padding-left: 100px;
+  margin: 0;
+}
+.main {
+  background-image: url(landing.jpg);
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+.header {
+  padding: 10px;
+}
+.header h1 {
+  color: aquamarine;
+}
+.header ul {
+  list-style: none;
+  position: absolute;
+  right: 1%;
+  top: 15px;
+}
+.header ul li {
+  display: inline-block;
+  text-transform: uppercase;
+  margin: 0 20px;
+  font-size: 17px;
+}
+.header ul li a {
+  text-decoration: none;
+  color: white;
+}
+.header ul li a:hover {
+  color: aquamarine;
+}
+.container .text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.container .text h1 {
+  color: aquamarine;
+  font-size: 50px;
+  line-height: 1.5;
+}
+.container .text p {
+  color: #797979;
+  font-size: 20px;
+  line-height: 1.5;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.footer {
+  position: relative;
+  padding-top: 100px;
+  padding-left: 100px;
+  text-align: center;
+
+}
+.footer h1{
+    color: black;
+    font-size: 50px;
+    line-height: 1.7;
+}
+.footer p{
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.footer > div {
+  position: relative;
+  width: fit-content;
+  left: calc(50% - 200px);
+  margin: 50px 0;
+}
+
+.footer .txt {
+  position: relative;
+  left: calc(50% - 250px);
+  width: 500px;
+  margin-bottom: 40px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.footer div p {
+  position: absolute;
+  font-weight: bold;
+  top: -25px;
+}
+
+.footer div div {
+  height: 20px;
+  width: 400px;
+  background-color: #ddd;
+}
+
+div.adobe {
+  background-image: linear-gradient(to right, #00c7fc 90%, #ddd 90%);
+}
+
+div.html {
+  background-image: linear-gradient(to right, #00c7fc 80%, #ddd 80%);
+}
+
+div.js {
+  background-image: linear-gradient(to right, #00c7fc 75%, #ddd 75%);
+}
+
+div.php {
+  background-image: linear-gradient(to right, #00c7fc 20%, #ddd 20%);
+}
+
+p.adobe::after {
+  content: "90%";
+  background-color: black;
+  font-size: small;
+  color: white;
+  padding: 5px;
+  position: absolute;
+  left: 340px;
+  top: -5px;
+  border-radius: 10%;
+}
+
+p.html::after {
+  content: "80%";
+  background-color: black;
+  font-size: small;
+  color: white;
+  padding: 5px;
+  position: absolute;
+  left: 300px;
+  top: -5px;
+  border-radius: 10%;
+}
+
+p.js::after {
+  content: "75%";
+  background-color: black;
+  font-size: small;
+  color: white;
+  padding: 5px;
+  position: absolute;
+  left: 280px;
+  top: -5px;
+  border-radius: 10%;
+}
+
+p.php::after {
+  content: "20%";
+  background-color: black;
+  font-size: small;
+  color: white;
+  padding: 5px;
+  position: absolute;
+  left: 60px;
+  top: -5px;
+  border-radius: 10%;
+}
+
+p.adobe::before {
+  content: "";
+  border: solid 5px;
+  border-color: black transparent transparent transparent;
+  position: absolute;
+  left: 354px;
+  top: 20px;
+}
+
+p.html::before {
+  content: "";
+  border: solid 5px;
+  border-color: black transparent transparent transparent;
+  position: absolute;
+  left: 314px;
+  top: 20px;
+}
+
+p.js::before {
+  content: "";
+  border: solid 5px;
+  border-color: black transparent transparent transparent;
+  position: absolute;
+  left: 294px;
+  top: 20px;
+}
+
+p.php::before {
+  content: "";
+  border: solid 5px;
+  border-color: black transparent transparent transparent;
+  position: absolute;
+  left: 74px;
+  top: 20px;
+}
