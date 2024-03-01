@@ -1,0 +1,74 @@
+.container {
+  width: 550px;
+  margin: 0 auto;
+  position: relative;
+}
+.card {
+  background-color: #eeeeee;
+  display: inline-block;
+  padding: 20px;
+  color: black;
+  width: 200px;
+  height: 280px;
+}
+.card-circle {
+  width: 200px;
+  height: 200px;
+  background-color: #dddddd;
+  text-align: center;
+  line-height: 200px;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.card-flag {
+  background-color: #03a9f4;
+  margin-bottom: 20px;
+  text-align: center;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 8px 30px;
+}
+
+.card:first-child {
+  margin-right: 25px;
+}
+.card:last-child {
+  margin-left: 25px;
+}
+.container::after {
+  content: " ";
+  background-color: #03a9f4;
+  height: 100%;
+  width: 2px;
+  position: absolute;
+  top: 0;
+  left: 265px;
+  z-index: -1;
+}
+.card::before {
+    content: "Or" ;
+  background-color: #03a9f4;
+  padding: 10px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 150px;
+  left: 247px;
+}

@@ -1,0 +1,30 @@
+div {
+  background-color: #eee;
+  width: fit-content;
+  margin: 10px auto;
+  background-color: #eee;
+  padding: 28px;
+  text-align: center;
+  font-weight: bold;
+  line-height: 1.7;
+  font-size: 20px;
+  position: relative;
+
+}
+
+div::first-letter {
+  content: "";
+  visibility: hidden;
+}
+
+div::before {
+    content: "1";
+    background-color: #f00;
+    padding: 10px;
+    position: absolute;
+    left: -15px;
+    top: 14px;
+    color: white;
+    width: 15px;
+    height: fit-content;
+}
