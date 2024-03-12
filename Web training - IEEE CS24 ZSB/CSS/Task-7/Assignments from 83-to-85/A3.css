@@ -1,0 +1,56 @@
+.assign-three {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.assign-three > div {
+  background-color: #eee;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.assign-three .pro div {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.assign-three .pro p {
+  margin: 10px auto;
+}
+
+@media (min-width: 768px) {
+  .assign-three .one {
+    width: calc(100%);
+  }
+
+  .assign-three .two,
+  .assign-three .three,
+  .assign-three .four {
+    width: calc((100% - 40px) / 3);
+  }
+  .assign-three .pro div {
+    color: #fe1313;
+  }
+}
+
+@media (min-width: 992px) {
+  .assign-three .one {
+    width: calc(100%);
+  }
+
+  .assign-three .two,
+  .assign-three .three {
+    width: calc(50% - 10px);
+  }
+
+  .assign-three .four {
+    width: calc(100%);
+  }
+
+  .assign-three .pro div {
+    color: #009688;
+  }
+}

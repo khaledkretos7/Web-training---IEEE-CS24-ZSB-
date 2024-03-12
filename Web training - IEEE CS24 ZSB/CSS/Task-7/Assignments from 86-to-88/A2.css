@@ -1,0 +1,55 @@
+.assign-2 div {
+  width: 250px;
+  margin: 20px auto;
+  background-color: #eee;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.arrow {
+  position: relative;
+  margin: 10px auto;
+}
+
+.top::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: -9px;
+  transform: translate(-50%, -50%);
+  border-style: solid;
+  border-width: 10px;
+  border-color: transparent transparent #eee transparent;
+}
+.bottom::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: calc(100% + 10px);
+  transform: translate(-50%, -50%);
+  border-style: solid;
+  border-width: 10px;
+  border-color: #eee transparent transparent transparent;
+}
+
+.left::before {
+  content: "";
+  position: absolute;
+  left: -10px;
+  top: calc(50%);
+  transform: translate(-50%, -50%);
+  border-style: solid;
+  border-width: 10px;
+  border-color: transparent #eee transparent transparent;
+}
+
+.right::before {
+  content: "";
+  position: absolute;
+  left: calc(100% + 10px);
+  top: calc(50%);
+  transform: translate(-50%, -50%);
+  border-style: solid;
+  border-width: 10px;
+  border-color: transparent transparent transparent #eee;
+}

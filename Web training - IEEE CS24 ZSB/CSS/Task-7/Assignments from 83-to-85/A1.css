@@ -1,0 +1,10 @@
+.assign-one {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+@media print {
+  .assign-one {
+    font-size: 40px;
+  }
+}
